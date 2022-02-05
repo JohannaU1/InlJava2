@@ -5,15 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Johanna Uppa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <form>
-        <input type="text" name="Box1" id="Box1" placeholder="Skriv in ditt tal:">
-        <input type="text" name="Box2" id="Box2" placeholder="Skriv in ditt tal:">
+    <form id="Stay">
+        <input type="text" id="Box1" placeholder="Skriv in ditt tal:">
+       
+        <button   id="Sub1">+</button>
+        <button id="Subtract">-</button>
 
-        <p id="Current">Här läggs siffrorna</p>
-        <p id="Result">Här kommer resultatet</p>
+        <button   id="Equal">=</button>
     </form>
+        <section class="concat1">
+        <p > Här läggs siffrorna: </p> 
+        <p id="Next"></p>
+        </section>
+      
+      
+        
+        <section class="concat2">
+        <p >Här kommer resultatet: </p>
+        <p id="Res1"></p>
+        </section>
+        
+    
     <script src="app.js"></script>
 </body>
 </html>

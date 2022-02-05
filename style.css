@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(1, 41, 41);
+}
+
+p{
+    
+    color: red;
+}
+#Next{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+
+#Res1{
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+
+
+
+.concat1 >p{
+    display: inline-block;
+}
+.concat2 >p{
+    display: inline-block;
+}
+
+
+
+
